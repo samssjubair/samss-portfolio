@@ -1,13 +1,13 @@
 import React from "react";
-import logo from "../../../Images/S.png"
+import logo from "../../../Images/sign.png"
 const Navbar = () => {
   return (
     <div className="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container-fluid">
           <a class="navbar-brand" href="#home">
-              <img style={{height: '50px',marginLeft: '10px', marginRight: '10px'}} src={logo} alt=""/>
-            Samss Jubair
+              <img style={{height: '80px',marginLeft: '10px', marginRight: '10px'}} src={logo} alt=""/>
+            
           </a>
           <button
             class="navbar-toggler"

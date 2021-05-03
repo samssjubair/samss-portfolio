@@ -9,7 +9,7 @@ const Footer = () => {
         marginRight: '1rem'
     }
     return (
-        <footer className="container-fluid w-75" style={{backgroundColor: '#252525'}}>
+        <footer className="container-fluid w-75" >
             <div className=" row  pb-5">
                 <div className="col-md-6">
                     <a target="_blank" href="https://www.linkedin.com/in/samssjubair/"><FontAwesomeIcon style={iconStyle} icon={faLinkedin} /></a>
