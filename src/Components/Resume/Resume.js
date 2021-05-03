@@ -38,6 +38,7 @@ import vscode from '../../Images/icons/visual-studio-code.png'
 import windows from '../../Images/icons/windows.png'
 import Skill from './SkillSet/Skill';
 import Education from './Education/Education';
+import Quality from './Quality/Quality';
 const expertise=[
     {name: 'Javascript',img: js},
     {name: 'HTML5',img: html},
@@ -119,6 +120,7 @@ const Resume = () => {
             </div>
 
             <Education></Education>
+            <Quality></Quality>
         </section>
     );
 };

@@ -1,0 +1,11 @@
+
+
+.hover-effect:hover{
+    background-color: #dc3545;
+    
+    border-radius: 10px;
+}
+
+.hover-effect:hover img{
+    transform: scale(1.2);
+}

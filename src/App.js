@@ -9,7 +9,7 @@ import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
-    <div className="App" >
+    <div className="App container-fluid" >
       <Header></Header>
       <Resume></Resume>
       <Projects></Projects>
