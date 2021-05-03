@@ -3,7 +3,7 @@ import React from "react";
 
 const Skill = ({ skill }) => {
   return (
-    <div className="col-3  my-4">
+    <div className="col-lg-3 col-6  my-4">
       <Tooltip title={skill.name} placement="top">
         <img style={{ height: "48px" }} src={skill.img} alt="" />
       </Tooltip>

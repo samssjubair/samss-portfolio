@@ -16,10 +16,10 @@ const AboutMe = () => {
                 <img src={picture} className="img-fluid w-75 media-image py-5 pe-5" alt=""/>
             </div>
             <div className="col-md-6 d-flex align-items-center ">
-                <div>
+                <div className="container-fluid">
                     <h2>Hi</h2>
                     <h1 style={{fontSize: '3rem',fontWeight: '300'}}>This is <span style={{fontWeight: '600'}} className="text-danger">Samss Jubair</span></h1>
-                    <p className="cinzel-font" style={{fontSize: '1.5rem'}}>
+                    <p className="cinzel-font" style={{fontSize: '1.5rem',height: '4rem'}}>
                     <Typical
                         steps={['Web Developer🌐', 2000,
                                 'React Developer', 2000,

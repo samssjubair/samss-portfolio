@@ -9,16 +9,16 @@ const Footer = () => {
         marginRight: '1rem'
     }
     return (
-        <footer className="container-fluid" style={{backgroundColor: '#252525'}}>
-            <div className="d-flex justify-content-between px-5 pb-5">
-                <div>
+        <footer className="container-fluid w-75" style={{backgroundColor: '#252525'}}>
+            <div className=" row  pb-5">
+                <div className="col-md-6">
                     <a target="_blank" href="https://www.linkedin.com/in/samssjubair/"><FontAwesomeIcon style={iconStyle} icon={faLinkedin} /></a>
                     <a target="_blank" href="https://github.com/samssjubair"><FontAwesomeIcon style={iconStyle} icon={faGithub} /></a>
                     <a target="_blank" href="https://www.facebook.com/"><FontAwesomeIcon style={iconStyle} icon={faFacebook} /></a>
                     
                    
                 </div>
-                <div>
+                <div className="col-md-6">
                     Proudly powered by Samss Jubair @{new Date().getFullYear()}
                 </div>
             </div>
