@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import picture from "../../../Images/dp1.png";
 import './AboutMe.css'
 import Typical from 'react-typical'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload,faFilePdf, faFileSignature } from '@fortawesome/free-solid-svg-icons'
+
 const AboutMe = () => {
     
     
@@ -16,7 +19,7 @@ const AboutMe = () => {
                 <div>
                     <h2>Hi</h2>
                     <h1 style={{fontSize: '3rem',fontWeight: '300'}}>This is <span style={{fontWeight: '600'}} className="text-danger">Samss Jubair</span></h1>
-                    <p className="cinzel-font" style={{fontSize: '2rem'}}>
+                    <p className="cinzel-font" style={{fontSize: '1.7rem'}}>
                     <Typical
                         steps={['Web Developer🌐', 2000,
                                 'React Developer', 2000,
@@ -29,17 +32,22 @@ const AboutMe = () => {
                         wrapper="p"
                     />
                     </p>
-                    <p style={{textAlign: 'justify'}} className="text-secondary ">
+                    <p style={{textAlign: 'justify',color: '#bcc5ce'}} >
                     4th-year university CSE student and a Web Developer. My focus is on MERN stack programming. Love problem solving, debugging, and learning new technologies. Always enjoy being challenged and engaging with
                     something outside my comfort.
                     </p>
                     <div className=" justify-content-between">
                         
                         <button  className="btn btn-outline-light me-3 my-2" >
-                            <a className="nostyle" target="_blank" href="https://drive.google.com/u/0/uc?id=1aBhXQrSpAB42AUpnMCStKTl7Tt8xxrT7&export=download">Download CV</a>
+                            <a className="nostyle" target="_blank" href="https://drive.google.com/u/0/uc?id=1aBhXQrSpAB42AUpnMCStKTl7Tt8xxrT7&export=download">
+                            <FontAwesomeIcon icon={faDownload} />
+                                {`  `}Download CV</a>
                         </button>
                         
-                        <button  className="btn btn-outline-danger">Contact Me</button>
+                        <button  className="btn px-4  btn-outline-danger">
+                        <FontAwesomeIcon icon={faFileSignature} />
+
+                             {`  `}Hire Me</button>
                     </div>
                 </div>
             </div>

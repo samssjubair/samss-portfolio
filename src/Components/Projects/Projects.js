@@ -13,7 +13,7 @@ const projects=[
         usedTechnology: 'React JS, MongoDB, NodeJS, Express, Bootstrap, React-router-dom,React-Hook-Form, Heroku, Stripe and Firebase',
         details: 'A complete event management website. Easy authentication process with Google Services are dynamic. Admin can add, remove services ,Admin can add another admin. User can see their own booking list and booking status. Stripe is used as payment system',
         liveSite: 'https://event-possible.web.app/',
-        github: 'https://aqueous-dawn-15668.herokuapp.com/',
+        github: 'https://github.com/samssjubair/event-possible',
         image: eventPossibleImg
     },
     {
