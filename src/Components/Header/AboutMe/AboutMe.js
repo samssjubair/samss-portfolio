@@ -11,7 +11,7 @@ const AboutMe = () => {
     
     
     return (
-        <div style={{textAlign: 'left'}} className="row container-fluid  p-5">
+        <section id="about" style={{textAlign: 'left'}} className="row container-fluid  p-5">
             <div className="col-md-6 d-flex justify-content-end">
                 <img src={picture} className="img-fluid w-75 media-image py-5 pe-5" alt=""/>
             </div>
@@ -24,8 +24,9 @@ const AboutMe = () => {
                         steps={['Web Developer🌐', 2000,
                                 'React Developer', 2000,
                                 'MERN-stack Developer', 2000,
-                                'Computer Engineer 🖥️', 2000,
-                                'Learner 🤓', 2000
+                                'CSE Student 🖥️', 2000,
+                                'Tech Enthusiast', 2000,
+                                'Learner🤓', 2000
                         ]}
                         
                         loop={Infinity}
@@ -43,15 +44,18 @@ const AboutMe = () => {
                             <FontAwesomeIcon icon={faDownload} />
                                 {`  `}Download CV</a>
                         </button>
-                        
+                        <a href="#contact">
                         <button  className="btn px-4  btn-outline-danger">
                         <FontAwesomeIcon icon={faFileSignature} />
 
-                             {`  `}Hire Me</button>
+                             {`  `}
+                             Hire Me
+                             </button>
+                             </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

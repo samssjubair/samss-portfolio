@@ -40,7 +40,7 @@ const ContactMe = () => {
         e.target.reset();
     }
     return (
-        <div id="contact" className="text-center mt-5 p-5">
+        <section id="contact" className="text-center mt-5 p-5">
             <div className="mb-5 text-light">
                 <h1>Want to know more?</h1>
                 
@@ -80,7 +80,7 @@ const ContactMe = () => {
                 </div>
             </div>
             <hr style={{color: 'white',marginTop: '50px'}}/>
-        </div>
+        </section>
     );
 };
 

@@ -58,14 +58,14 @@ const projects=[
 
 const Projects = () => {
     return (
-        <div>
+        <section id="projects">
             <h1 className="text-danger port-font m-5">Projects</h1>
             <div className="container py-5">
             {
                 projects.map(proj=> <Project project={proj}></Project> )
             }
             </div>
-        </div>
+        </section>
     );
 };
 

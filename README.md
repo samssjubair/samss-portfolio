@@ -2,3 +2,6 @@
 
 Live site link: https://samssjubairportfolio.netlify.app/
 
+## future update:
+* client review
+

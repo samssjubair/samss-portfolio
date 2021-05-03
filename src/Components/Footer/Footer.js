@@ -9,7 +9,7 @@ const Footer = () => {
         marginRight: '1rem'
     }
     return (
-        <div className="container-fluid" style={{backgroundColor: '#252525'}}>
+        <footer className="container-fluid" style={{backgroundColor: '#252525'}}>
             <div className="d-flex justify-content-between px-5 pb-5">
                 <div>
                     <a target="_blank" href="https://www.linkedin.com/in/samssjubair/"><FontAwesomeIcon style={iconStyle} icon={faLinkedin} /></a>
@@ -22,7 +22,7 @@ const Footer = () => {
                     Proudly powered by Samss Jubair @{new Date().getFullYear()}
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 

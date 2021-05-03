@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#home">
               <img style={{height: '50px',marginLeft: '10px', marginRight: '10px'}} src={logo} alt=""/>
             Samss Jubair
           </a>
@@ -22,19 +22,20 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">
-                About Me
+              <a class="nav-link active" aria-current="#home" href="#">
+                Home
               </a>
-              <a class="nav-link" href="#">
-                Portfolio
-              </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#resume">
                 Resume
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#projects">
+                Portfolio
+              </a>
+              
+              <a class="nav-link" href="#blogs">
                 Blogs
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#contact">
                 Contact Me
               </a>
             </div>

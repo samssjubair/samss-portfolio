@@ -90,7 +90,7 @@ const tools=[
 
 const Resume = () => {
     return (
-        <div>
+        <section id="resume">
             <h1 className="text-danger port-font">Things I can offer</h1>
             <h2 className="my-5 ">My <span className="text-danger">Expertise</span></h2>
             <div data-aos="zoom-in" className="w-50 row m-auto fluid-container">
@@ -119,7 +119,7 @@ const Resume = () => {
             </div>
 
             <Education></Education>
-        </div>
+        </section>
     );
 };
 
