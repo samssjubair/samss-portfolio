@@ -16,7 +16,7 @@ const Blog = ({blog}) => {
             <figcaption>
               <div>
                 <h2>Blog: <span>{id}</span></h2>
-                <p>{title}</p>
+                <p style={{color: 'white',fontWeight: '500',background: 'rgba(f,f,f,0.1)'}}>{title}</p>
               </div>
               <a target="_blank" href={url}>Read full..</a>
             </figcaption>     

@@ -19,12 +19,12 @@ const AboutMe = () => {
                 <div>
                     <h2>Hi</h2>
                     <h1 style={{fontSize: '3rem',fontWeight: '300'}}>This is <span style={{fontWeight: '600'}} className="text-danger">Samss Jubair</span></h1>
-                    <p className="cinzel-font" style={{fontSize: '1.7rem'}}>
+                    <p className="cinzel-font" style={{fontSize: '1.5rem'}}>
                     <Typical
                         steps={['Web Developer🌐', 2000,
                                 'React Developer', 2000,
-                                'MERN-stack Developer', 2000,
-                                'CSE Student 🖥️', 2000,
+                                'Full-stack Developer', 2000,
+                                'CSE Student🖥️', 2000,
                                 'Tech Enthusiast', 2000,
                                 'Learner🤓', 2000
                         ]}
@@ -47,11 +47,10 @@ const AboutMe = () => {
                         <a href="#contact">
                         <button  className="btn px-4  btn-outline-danger">
                         <FontAwesomeIcon icon={faFileSignature} />
-
                              {`  `}
                              Hire Me
-                             </button>
-                             </a>
+                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
