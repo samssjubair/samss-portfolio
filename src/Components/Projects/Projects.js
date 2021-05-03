@@ -59,7 +59,7 @@ const projects=[
 const Projects = () => {
     return (
         <div>
-            <h1 className="text-danger m-5">Projects</h1>
+            <h1 className="text-danger port-font m-5">Projects</h1>
             <div className="container py-5">
             {
                 projects.map(proj=> <Project project={proj}></Project> )

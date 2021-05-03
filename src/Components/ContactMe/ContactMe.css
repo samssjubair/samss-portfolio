@@ -1,0 +1,33 @@
+input[type="text"]{
+    background-color: transparent;
+    border:1px solid #dc3545;
+    color: white;
+}
+textarea[type="text"]{
+    
+        background-color: transparent;
+        border:1px solid #dc3545;
+        color: white;
+    
+}
+input[type="email"]{
+  background-color: transparent;
+  border:1px solid #dc3545;
+  color: white;
+}
+
+input[type="text"]:focus {
+  color: white;
+  background-color: transparent;
+}
+input[type="email"]:focus {
+  color: white;
+  background-color: transparent;
+}
+
+  textarea[type="text"]:focus{
+    color: white;
+    background-color: transparent;
+    
+
+}

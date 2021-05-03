@@ -9,3 +9,12 @@ a.nostyle:visited {
     color: inherit;
     cursor: auto;
 }
+
+@media screen and (max-width: 800px) {
+    .media-image {
+        margin: auto  !important;
+        width: 100% !important;
+    }
+   
+  }
+  

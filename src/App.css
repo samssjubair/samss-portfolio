@@ -4,3 +4,17 @@
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
+
+.portfolio-color{
+  color: wheat;
+}
+
+.cinzel-font{
+  font-family: 'Cinzel', serif;
+}
+
+.port-font{
+  
+  font-size: 3rem;
+  /* font-family: 'Merriweather', serif; */
+}
