@@ -40,7 +40,7 @@ const AboutMe = () => {
                     <div className=" justify-content-between">
                         
                         <button  className="btn btn-outline-light me-3 my-2" >
-                            <a className="nostyle" target="_blank" href="https://drive.google.com/u/0/uc?id=1aBhXQrSpAB42AUpnMCStKTl7Tt8xxrT7&export=download">
+                            <a className="nostyle" target="_blank" href="https://drive.google.com/uc?export=download&id=1M2i-tT_iMNkyrUFJ6X8aKexd5-aJH4z3">
                             <FontAwesomeIcon icon={faDownload} />
                                 {`  `}Download CV</a>
                         </button>

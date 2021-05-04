@@ -44,7 +44,7 @@ const Education = () => {
                 <h5>BSc. in Computer Science and Engineering</h5>
               <small className=" text-secondary">2016-present</small>
               <p>Mawlana Bhashani Science and Technology University</p>
-              <p className="portfolio-color mt-0">Result: GPA-3.2+</p>
+              
           </TimelineContent>
         </TimelineItem>
         
