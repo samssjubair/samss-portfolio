@@ -5,19 +5,20 @@ const Blog = ({ blog }) => {
   const { id, title, image, url } = blog;
   return (
     
-      <div className="m-auto col-md-4 " style={{ style: "18rem" }}>
-        <div className="py-3" style={{boxShadow: '5px 5px 25px gray'}}>
+      <div  className="m-auto col-md-4 py-5" >
+        <div className="py-3 hover-shadow"  style={{ padding: '20px'}}>
         <img
+          style={{height: '120px'}}
           className="card-img-top w-50"
           src={image}
           alt="Card image cap"
         ></img>
         <div className="card-body">
           <p
-            style={{ textAlign: "justify", fontWeight: "200", width: "55%" }}
+            style={{ textAlign: "center", fontWeight: "200", height: '70px' ,padding: '10px'}}
             className="card-text mb-3 m-auto img-fluid"
           >
-            <strong>Title:</strong> {title}
+            {title}
           </p>
           <a
             target="_blank"
