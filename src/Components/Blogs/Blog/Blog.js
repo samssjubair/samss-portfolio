@@ -6,6 +6,12 @@ const Blog = ({ blog }) => {
   return (
     
       <div  className="m-auto col-md-4 py-5" >
+        <a
+            target="_blank"
+            className="text-white "
+            style={{ textDecoration: "none" }}
+            href={url}
+          >
         <div className="py-3 hover-shadow"  style={{ padding: '20px'}}>
         <img
           style={{height: '120px'}}
@@ -20,14 +26,9 @@ const Blog = ({ blog }) => {
           >
             {title}
           </p>
-          <a
-            target="_blank"
-            className="text-primary "
-            style={{ textDecoration: "underline" }}
-            href={url}
-          >
-            Read Full Article
-          </a>
+          
+            {/* Read Full Article */}
+          
         </div>
 
         {/* <div class="grid container-fluid">
@@ -43,7 +44,9 @@ const Blog = ({ blog }) => {
           </figure>
           </div> */}
       </div>
+      </a>
     </div>
+    
   );
 };
 
