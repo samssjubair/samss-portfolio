@@ -7,8 +7,9 @@ import './Header.css'
 const Header = () => {
   return (
     
+    
       <div className="media-height">
-        <ParticleBackground ></ParticleBackground>
+      {/* <ParticleBackground ></ParticleBackground> */}
         <div className="particle"
         //  style={{
         //     position: "absolute",
@@ -23,7 +24,7 @@ const Header = () => {
           <AboutMe></AboutMe>
         </div>
       </div>
-    
+      
   );
 };
 

@@ -22,11 +22,10 @@ const AboutMe = () => {
                     <p className="cinzel-font" style={{fontSize: '1.5rem',height: '4rem'}}>
                     <Typical
                         steps={['Web Developer 🌐', 2000,
+                                'Ml Researcher', 2000,
                                 'React Developer', 2000,
                                 'Full-stack Developer', 2000,
-                                'CSE Student 🖥️', 2000,
-                                'Tech Enthusiast', 2000,
-                                'Learner 🤓', 2000
+                                'CSE Graduate 🖥️', 2000,
                         ]}
                         
                         loop={Infinity}
@@ -40,7 +39,7 @@ const AboutMe = () => {
                     <div className=" justify-content-between">
                         
                         <button  className="btn btn-outline-light me-3 my-2" >
-                            <a className="nostyle" target="_blank" href="https://drive.google.com/uc?export=download&id=1M2i-tT_iMNkyrUFJ6X8aKexd5-aJH4z3">
+                            <a className="nostyle" target="_blank" href="https://drive.google.com/uc?export=download&id=1f3EENIpLz5SAAChPZYqmvSl4Maes5GRQ">
                             <FontAwesomeIcon icon={faDownload} />
                                 {`  `}Download CV</a>
                         </button>
