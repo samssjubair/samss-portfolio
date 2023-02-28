@@ -48,6 +48,7 @@ const AboutMe = () => {
                         <FontAwesomeIcon icon={faFileSignature} />
                              {`  `}
                              Hire Me
+                             
                         </button>
                         </a>
                     </div>
